@@ -1,0 +1,384 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Robot mono",monospace;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.nav{
+    height: 7vh;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(10px);
+    background-color: rgba(220, 214, 214, 0.525) ;
+    z-index: 100;
+}
+.nav-items a{
+text-decoration: none;
+color: black;
+}
+
+.hero-section{
+    height: 85vh;
+    width: 100vw;
+    background-color: rgb(210, 218, 225);
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.left-side-hero{
+    height: 100%;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.left-side-hero h1{
+    font-size: 4em;
+    font-weight: 900;
+}
+.left-side-hero p{
+    color: gray;
+    font-size: 150%;
+}
+
+.info-contain{
+    width:90%;
+}
+.input-box-container{
+    height: 50px;
+    width:600px;
+    background-color:white;
+    margin-top: 20px;
+    border-radius: 24px;
+    overflow: hidden;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.input-box-container input{
+    outline: none;  
+    height: 80%;
+    width: 60%;
+    border: none;
+    border-right: solid black;
+}
+.input-box-container select{
+    border: none ;
+    height: 95%;
+    outline: none;
+    padding: 0 10px;
+}
+.input-box-container button{     
+    height: 80%;
+    width: 40px;
+    background-color: rgb(120, 189, 235);
+    border-radius: 50%;
+    
+}
+
+.searches{
+     margin-top: 40px;
+}
+.serch-item{
+    margin-top: 10px;
+   
+}
+.search-items{
+    background-color: rgb(124, 196, 217);
+    font-size: 0.8em;
+    border-radius: 24px;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+
+}
+.company{
+    margin-top: 70px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.right-side-hero{
+    height: 100%;
+    width: 40vw;
+    position: relative;
+    
+}   
+
+.info-contain{
+    padding: 10px;
+}
+
+.info-contain div{
+    font-size: 1em;
+    font-weight: 800;
+
+}
+.info-contain span{
+    font-size: 0.9em;
+    font-weight: 800;
+}
+.info-contain p{
+    font-size: 0.9em;
+    color: gray;
+}
+
+
+.background-div{
+    height: 110%;
+    width: 120%;
+    background-color: rgb(71, 19, 119);
+    border-bottom-left-radius:150px ;
+    transform: rotate(25deg) translateY(-9.5%);
+    
+}
+.modelmain-div{
+    height: 320px;
+    width: 220px;
+    position: absolute;
+    bottom: 30%;
+    left: 7%;
+}
+.model-main-1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(152, 175, 187);
+    position: absolute;
+    top: 0;
+     transform: rotate(12deg);
+     transform-origin:0% 100% ;
+     border-radius: 10%;
+}
+.model-main-2{
+
+    height: 100%;
+    width: 100%;
+    background-color: rgb(96, 122, 146);
+    position: absolute;
+    top: 0;
+    transform: rotate(6deg) ;
+    transform-origin:0% 100% ;
+    border-radius: 10%;
+}
+
+.model-main-3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(10, 108, 108);
+    position: absolute;
+    top: 0;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.model-main-3 img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.job-information{
+    height: 180px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    border-radius: 14px;
+    top: 30%;
+    right: -70%;
+    box-shadow: 20px 20px 20px black;
+}
+  /* //second page */
+.page2{
+    height: 70vh;
+    width: 100vh;
+}
+.categories-tagline{
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+}
+.categories-tagline h2{
+    font-size: 2em;
+}
+
+.card1{
+    width: 100vw;
+    
+}
+.categories-item-card{
+    height: 250px;
+    width: 200px;
+    background-color: rgb(128, 168, 200);
+    border-radius: 24px;
+    box-shadow: 10px 10px 10px rgb(67, 59, 59);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.cat{
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.categories-item-card-logo{
+    height: 70px;
+    width: 100px;
+    border-color:white;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    box-shadow: 2px 2px 7px rgb(50, 44, 44) ;
+
+}
+.card1{
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+.loader{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.295);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    display: none;
+}
+
+/* //third div */
+ .main-div {
+  background-color: rgb(177, 187, 192);
+  min-height: 800px;
+  padding: 20px;
+}
+
+/* Header */
+.main {
+  margin: 30px;
+}
+
+.main h2 {
+  font-weight: bold; /* fixed */
+  font-size: 1.8em;
+}
+
+.main p {
+  color: gray;
+  padding: 10px 0;
+} 
+
+/* Cards grid */
+ .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 30px;
+}
+ .cards-container:hover .sub-div{
+     cursor: pointer;
+     
+ }
+
+/* Job Card */
+ .sub-div {
+  height: 250px;
+  width: 220px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 5px 5px 5px rgb(106, 106, 152);
+}
+
+/* Top section */
+.part-top {
+  background-color: rgb(234, 231, 231);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* .part-top h3 {
+  margin: 0;
+  font-size: 0.9em;
+}  */
+
+.part-top h1 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.part-top h5 {
+  margin: 0;
+  font-size: 0.8em; 
+  color: gray;
+} 
+
+/* Bottom section */
+.part-bottom {
+  background-color: rgb(242, 241, 241);
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+ .part-bottom p {
+  margin: 0;
+  font-size: 0.8em;
+  color: #555;
+} 
+
+ .part-bottom h4 {
+  margin: 0;
+  font-size: 0.9em;
+} 
+
+.child-div {
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}  */

@@ -1,0 +1,5 @@
+API_ID=b1b72227
+
+API_KEY=33fc678b3ba4d5d7929b51b738ad6935
+
+API_URI=https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=${API_ID}&app_key=${API_KEY}&results_per_page=20&what=web%20developer&where=India&content-type=application/json
